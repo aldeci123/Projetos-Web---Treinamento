@@ -1,0 +1,41 @@
+
+
+body,html{
+	margin: 0;
+	height: 100%;
+	background-color: rgb(1, 1, 1);
+}
+.caixa1, .caixa2, .caixa3 {
+	position: relative;
+	height: 100%;	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.titulo{
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+.titulo span.span{
+	color: #fff;
+	background-color: #111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+.texto{
+	color: #fff;
+	text-align: justify;
+	padding: 15px;
+}
+.caixa1 {
+	background-image: url(../imagens/ficheiro.jpg);
+}
+.caixa2 {
+	background-image: url(../imagens/raio.jpg);
+}
